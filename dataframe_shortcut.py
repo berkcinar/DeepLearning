@@ -13,3 +13,6 @@ left_df.merge(right_df, on='user_id', how='left')
 
 #drop column
 df.drop(columns=['B', 'C'])
+
+#dataframe to list
+df.values.tolist()
